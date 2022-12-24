@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "jest": "^29.3.1"
+  },
+  "name": "es6-exercises",
+  "version": "1.0.0",
+  "description": "JavaScript Excercises ES6",
+  "main": "destructuring.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "tsv-stacks",
+  "license": "ISC"
+}
