@@ -16,4 +16,32 @@ let quantity = item[2];
 
 // Change above this line
 
-module.exports = { name, quantity, price }
+/*
+Exercise 2
+
+Rewrite the code below to assign each number to the right variable.
+*/
+
+let numbers = [3, 5, 4, 2, 6, 1];
+
+
+// Change below this line
+
+let [one, two, three, four, five, six] = numbers;
+
+// Change above this line
+
+/**
+Exercise 3
+
+We have an object called 'user'.
+Write the destructuring assignment that reads:
+- 'name' property into the variable 'name'.
+- 'years' property into the variable 'age'.
+- 'isAdmin' property into the variable 'isAdmin' (false, if no such property)
+*/
+
+
+
+
+module.exports = { name, quantity, price, one, two, three, four, five, six }
