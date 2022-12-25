@@ -1,5 +1,7 @@
 # JavaScript ES 6 Practice Exercises
 
+I wanted to learn more about deconstructing arrays and objects, jest and tdd so I made this exercise file to help me and hopefully other people on their coding learning journey!
+
 Covers:
 
 - Deconstruction of Arrays and Objects
