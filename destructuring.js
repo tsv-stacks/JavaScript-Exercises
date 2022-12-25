@@ -16,6 +16,8 @@ let quantity = item[2];
 
 // Change above this line
 
+// ---------------------------------------------------------------------
+
 /*
 Exercise 2
 
@@ -31,17 +33,46 @@ let [one, two, three, four, five, six] = numbers;
 
 // Change above this line
 
-/**
-Exercise 3
+// ---------------------------------------------------------------------
 
-We have an object called 'user'.
+/**
+Exercise 3a
+
+We have an object called 'john'.
 Write the destructuring assignment that reads:
-- 'name' property into the variable 'name'.
-- 'years' property into the variable 'age'.
-- 'isAdmin' property into the variable 'isAdmin' (false, if no such property)
+- 'name' property into the variable 'johnName'.
+- 'years' property into the variable 'johnAge'.
+- 'isAdmin' property into the variable 'isJohnAdmin'
 */
 
+let john = { name: "John", years: 30, isAdmin: true };
+
+// Change below this line
+
+let johnName = john.name
+let johnAge = john.years
+let isJohnAdmin = john.isAdmin
+
+// Change above this line
 
 
+// Exercise 3b
 
-module.exports = { name, quantity, price, one, two, three, four, five, six }
+// We have an object called 'steve'. Similiar as before
+// 'name' property into the variable 'steveName'.
+// - 'years' property into the variable 'steveAge'.
+// - 'isAdmin' property into the variable 'isSteveAdmin' (false, if no such property)
+
+let steve = { name: "Steve", years: 25 };
+
+// Change below this line
+
+let steveName = steve.name
+let steveAge = steve.years
+let isSteveAdmin = steve.isAdmin
+
+// Change above this line
+
+// ---------------------------------------------------------------------
+
+module.exports = { name, quantity, price, one, two, three, four, five, six, johnName, johnAge, isJohnAdmin, steveName, steveAge, isSteveAdmin }
